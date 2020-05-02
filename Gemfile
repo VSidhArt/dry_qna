@@ -14,6 +14,7 @@ gem 'pg'
 gem 'dotenv'
 gem 'rake'
 gem 'irb'
+gem 'puma'
 
 gem "hanami-controller", "~> 1.3"
 gem "hanami-router", "~> 1.3"
