@@ -5,4 +5,3 @@ module DryQna
     end
   end
 end
-# user_repo = DryQna::Repos::QuestionRepo.new(DryQna::Application['container'])
