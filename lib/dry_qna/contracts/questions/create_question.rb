@@ -3,7 +3,7 @@ module DryQna
     module Questions
       class CreateQuestion < Dry::Validation::Contract
         params do
-          required(:title).filled(:string).value(lt?: 100)
+          required(:title).filled(:string, max_size?: 100)
           required(:description).filled(:string)
         end
       end
