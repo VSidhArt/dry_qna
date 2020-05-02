@@ -86,6 +86,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  dry-auto_inject
   dry-system
   irb
   pg

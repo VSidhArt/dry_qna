@@ -1,6 +1,8 @@
 module DryQna
   module Repos
     class QuestionRepo < ROM::Repository[:questions]
+      include Import["container"]
+
       struct_namespace DryQna
 
       commands :create,
