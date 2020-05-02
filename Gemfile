@@ -9,3 +9,4 @@ gem 'pg'
 
 gem 'dotenv'
 gem 'rake'
+gem 'irb'
